@@ -8,3 +8,21 @@
   padding: 10px;
   width: 70%;
 }
+
+.post-body {
+  margin: 10px 0 50px 30px;
+  border: 1px solid rgb(212, 206, 206);
+  padding: 10px;
+  width: 70%;
+}
+
+.comment-block {
+  margin: 10px 0 20px 30px;
+  border: 1px solid rgb(212, 206, 206);
+  padding: 10px;
+  width: 90%;
+}
+
+.comment-email {
+  color: rgb(146, 214, 174);
+}
