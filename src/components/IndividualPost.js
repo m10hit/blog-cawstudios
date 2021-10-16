@@ -9,9 +9,9 @@ const IndividualPost = props => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    document.title = post.title;
     dispatch(fetchIndividualPost(props.match.params.id));
   }, []);
+  document.title = loading ? 'Loading...' : post.title;
 
   return loading ? (
     <p>Loading...</p>
